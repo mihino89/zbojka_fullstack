@@ -2053,6 +2053,17 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .description {
   color: #9A9A9A; }
 
+@media only screen and (min-width: 376px) {
+  .partnersR {
+    float: right;
+    background-color: lightblue;
+  }
+  .partnersL {
+    float: left;
+    background-color: lightblue;
+  }
+}
+
 blockquote small {
   font-style: normal; }
 

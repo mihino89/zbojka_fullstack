@@ -41,6 +41,7 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import Gallery from '../index-sections/Gallery'
+import PreFooter from '../index-sections/PreFooter'
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -331,6 +332,7 @@ function LandingPage() {
           </Container>
         </div>
       </div>
+      <PreFooter/>
       <DemoFooter />
     </>
   );
