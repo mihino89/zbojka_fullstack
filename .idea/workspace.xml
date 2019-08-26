@@ -3,21 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="69785e4e-77d1-4d49-98fb-66c1eb81b832" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Headers/IndexHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Headers/ProfilePageHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbars/IndexNavbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/examples/ProfilePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/examples/RegisterPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/Gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/PreFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/PreFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionDownload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionExamples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionLogin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionNavigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/antoine-barres.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/bruno-abatti.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/creative-tim-white-slim2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/daniel-olahs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/eva.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/examples/landing-page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/examples/profile-page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/fabio-mangione.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/federico-beccari.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/fog-low.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/ilya-yakover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/invision-white-slim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/joshua-stannard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/login-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/nucleo-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/ryan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/soroush-karimi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/uriel-soberanes.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,42 +41,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/examples/LandingPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="334" column="12" lean-forward="true" selection-start-line="334" selection-start-column="12" selection-end-line="334" selection-end-column="12" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#862#928#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -115,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1943" />
@@ -133,11 +110,6 @@
             <path>
               <item name="paper-kit-react-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="paper-kit-react-master" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="paper-kit-react-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="paper-kit-react-master" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -183,18 +155,17 @@
       <updated>1566243041278</updated>
       <workItem from="1566243043039" duration="1329000" />
       <workItem from="1566368701487" duration="9733000" />
-      <workItem from="1566395343834" duration="17397000" />
+      <workItem from="1566395343834" duration="18033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28459000" />
+    <option name="totallyTimeSpent" value="29095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17813765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17813765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -202,7 +173,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.0689013" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44134077" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -211,7 +182,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26070765" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.65363127" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -542,16 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/index-sections/SectionNavigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1224">
@@ -581,6 +542,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/apple-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Documentation/documentation.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/paper-kit-react-master.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/examples/LandingPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -592,10 +581,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="912">
+            <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="425">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
