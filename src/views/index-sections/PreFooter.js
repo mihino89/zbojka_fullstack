@@ -37,7 +37,7 @@ function PreFooter() {
                     <Row>
                         <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>Majitelia</h2></Col>
                     </Row>
-                    <Row className="justify-content-md-center">
+                    <Row className="justify-content-md-center ml-auto mr-auto text-center" md="12">
                         <Col md="3" sm="6">
                             <img
                                 className="partnersR"

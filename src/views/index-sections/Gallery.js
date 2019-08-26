@@ -24,6 +24,7 @@ function GalLightbox() {
                 {viewerIsOpen ? (
                     <Modal onClose={closeLightbox}>
                         <Carousel
+                            style={{maxHeight: "80%"}}
                             currentIndex={currentImage}
                             views={photos.map(x => ({
                                 ...x,
