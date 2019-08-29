@@ -2,241 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239f8877-0d2b-4392-8056-e95da3042b70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/paper-kit-react-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/img/flags/svk.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/img/flags/svk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/paper-kit/_footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/paper-kit/_footers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/paper-kit/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/paper-kit/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Footers/DemoFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Footers/DemoFooter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Message/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Message/Message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbars/ExamplesNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbars/ExamplesNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/examples/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/examples/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/index-sections/photos.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/index-sections/photos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/paper-kit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/paper-kit.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/paper-kit.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/demo/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/nucleo-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/nucleo-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/nucleo-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/nucleo-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/daniel-olahh.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/ayo-ogunseinde-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/clem-onojeghuo-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/clem-onojeghuo-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/erik-lucatero-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/joe-gardner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/kaci-baum-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/DE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/DJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/DK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/DZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/EE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/EG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/ES.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/FI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/FR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/GA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/GM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/GT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/HN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/HT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/HU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/ID.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/JM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/JO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/JP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/ML.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/OM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/QA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/RO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/RU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/RW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/UA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/US.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/VE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/VN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/YE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/gall_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/gall_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/gall_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/gall_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/gall_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/gall_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/bergans.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/bergans.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/bergans.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/devold.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/james.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/karitraa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/karitraa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/kst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/norskamoda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/logo/norwayshop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/zbojka/we_are.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_badges.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_checkbox-radio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_examples.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_footers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_headers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_images.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_inputs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_labels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_misc.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_navbars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_nucleo-icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_nucleo-outline.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_progress-bars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_sections.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_sliders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_social-buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_switch.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_tabs-navs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_tags.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_tooltips-and-popovers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/cards/_card-plain.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/cards/_card-profile.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/cards/_card-register.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_inputs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_labels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_navbars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_popovers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_tabs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_transparency.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/mixins/_vendor-prefixes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/plugins/_plugin-bootstrap-switch.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/plugins/_plugin-datepicker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/plugins/_plugin-nouislider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/paper-kit/plugins/_plugin-perfect-scrollbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/paper-kit/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/paper-kit/_inputs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/paper-kit/_navbars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/paper-kit/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/paper-kit/_tooltips-and-popovers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/plugins/_plugin-nouislider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/plugins/_plugin-react-bootstrap-switch.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/plugins/_plugin-react-datetime.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/react/react-differences.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footers/DemoFooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Headers/LandingPageHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbars/ExamplesNavbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/NucleoIcons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/examples/LandingPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/Gallery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/PreFooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionCarousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionDark.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionJavaScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionNavbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionNotifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionNucleoIcons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionProgress.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/SectionTypography.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/photos.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,13 +28,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/views/examples/LandingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1752">
-              <caret line="280" column="14" lean-forward="true" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
+            <state relative-caret-position="74">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#651#748#0" expanded="true" />
-                <element signature="e#769#835#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Footers/DemoFooter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/assets/scss/paper-kit/_footers.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -266,31 +59,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/views/index-sections/Gallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-144">
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/views/index-sections/PreFooter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/Navbars/ExamplesNavbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-758">
-              <caret line="113" selection-start-line="113" selection-end-line="114" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#599#625#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -303,6 +74,13 @@
       <find>dropdown-info</find>
       <find>.dropdown-menu</find>
       <find>min-width: 10r</find>
+      <find>scroll</find>
+      <find>LinkScroll</find>
+      <find>DemoFo</find>
+      <find>.footer .</find>
+      <find>.footer .cre</find>
+      <find>.footer</find>
+      <find>footer-black</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -311,22 +89,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/views/examples/LandingPage.js" />
         <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/server/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/client/src/components/Message/Message.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/client/src/views/index-sections/photos.js" />
         <option value="$PROJECT_DIR$/client/src/assets/css/bootstrap.min.css.map" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Navbars/ExamplesNavbar.js" />
         <option value="$PROJECT_DIR$/client/src/views/index-sections/PreFooter.js" />
+        <option value="$PROJECT_DIR$/client/src/views/index-sections/photos.js" />
+        <option value="$PROJECT_DIR$/client/node_modules/reactstrap/src/NavItem.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Message/Message.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Navbars/ExamplesNavbar.js" />
+        <option value="$PROJECT_DIR$/client/src/views/examples/LandingPage.js" />
+        <option value="$PROJECT_DIR$/client/src/assets/scss/paper-kit/_typography.scss" />
+        <option value="$PROJECT_DIR$/client/src/assets/scss/paper-kit/_footers.scss" />
+        <option value="$PROJECT_DIR$/client/src/components/Footers/DemoFooter.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="660" />
     <option name="y" value="12" />
     <option name="width" value="954" />
@@ -337,8 +119,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -383,6 +165,47 @@
               <item name="fullstackZbojka" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstackZbojka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstackZbojka" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstackZbojka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstackZbojka" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="paper-kit.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="fullstackZbojka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstackZbojka" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstackZbojka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstackZbojka" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="paper-kit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstackZbojka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstackZbojka" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -391,7 +214,7 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
+              <item name="Footers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullstackZbojka" type="b2602c69:ProjectViewProjectNode" />
@@ -442,7 +265,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React/sklzEshop/portfolio/portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -472,16 +295,18 @@
       <workItem from="1566806951132" duration="4003000" />
       <workItem from="1566811021994" duration="16683000" />
       <workItem from="1567004842187" duration="5471000" />
+      <workItem from="1567075013882" duration="8430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26157000" />
+    <option name="totallyTimeSpent" value="34587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19757085" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20080972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -498,7 +323,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12662943" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2886406" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -589,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/assets/css/paper-kit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="444" column="32" selection-start-line="444" selection-start-column="32" selection-end-line="444" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/assets/css/bootstrap.min.css.map">
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
@@ -610,13 +428,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Message/Message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -650,49 +461,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Navbars/ExamplesNavbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-758">
-          <caret line="113" selection-start-line="113" selection-end-line="114" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#599#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/views/examples/LandingPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1752">
-          <caret line="280" column="14" lean-forward="true" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#651#748#0" expanded="true" />
-            <element signature="e#769#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/views/index-sections/photos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="1032">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/views/index-sections/Gallery.js">
+    <entry file="file://$PROJECT_DIR$/client/node_modules/reactstrap/src/NavItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/views/index-sections/PreFooter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+        <state relative-caret-position="25">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/index-sections/Gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Message/Message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Navbars/ExamplesNavbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#599#639#0" expanded="true" />
+            <element signature="e#725#761#0" expanded="true" />
+            <element signature="e#789#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/examples/LandingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#651#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/scss/paper-kit/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="113" column="1" lean-forward="true" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/paper-kit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="3991" column="1" selection-start-line="3991" selection-start-column="1" selection-end-line="3991" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/scss/paper-kit/_footers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Footers/DemoFooter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
         </state>
       </provider>
     </entry>

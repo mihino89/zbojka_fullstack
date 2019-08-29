@@ -30,27 +30,23 @@ function DemoFooter() {
           <nav className="footer-nav">
             <ul>
               <li>
+                Tel. cislo: &nbsp;
                 <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
+                  href="#"
                   target="_blank"
+                  style={{fontWeight: "500", display: "inline"}}
                 >
-                  Creative Tim
+                  +421 903 638 000
                 </a>
               </li>
-              <li>
+              <li style={{fontWeight: "500", display: "inline"}}>
+                Email: &nbsp;
                 <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
+                  href="#"
                   target="_blank"
+                  style={{fontWeight: "500", display: "inline", textTransform:"lowercase"}}
                 >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.creative-tim.com/license?ref=pkr-footer"
-                  target="_blank"
-                >
-                  Licenses
+                   rezervacie@zbojnickachata.sk
                 </a>
               </li>
             </ul>
@@ -58,7 +54,7 @@ function DemoFooter() {
           <div className="credits ml-auto">
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              <i className="fa fa-heart heart" /> by Creative Tim and Martin Mihalovic
             </span>
           </div>
         </Row>

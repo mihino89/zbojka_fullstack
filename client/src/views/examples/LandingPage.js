@@ -54,7 +54,7 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Pár slov o chate</h2>
+                <h2 className="title" id="section1">Pár slov o chate</h2>
                 <h5 className="description">
                   Zbojnícka chata má celoročnú prevádzku. Nachádza sa vo Veľkej Studenej doline, ktorú ohraničujú Slavkovský štít, Východná Vysoká, Svišťový štít, Javorový štít, Široká veža, Prostredný hrot a priľahlé hrebene. Je to dolina s najväčším počtom plies (26) rôznych veľkostí a charakterov, je bohatá na tatranskú faunu i flóru. Je tu nespočetné množstvo turistických, horolezeckých, skialpinistických a prírodovedeckých aktivít.
                 </h5>
@@ -103,25 +103,21 @@ function LandingPage() {
           <div className="filter" />
           <Container style={{color: "#fff"}}>
             <div className="motto text-center">
-              <Row>
+              <Row id="section2">
                 <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>Let's talk about us</h2></Col>
                 <Col md="4">
                   <Card className="card-profile card-plain">
                     <div className="card-avatar">
-                      <a href="#pablo" onClick={e => e.preventDefault()}>
-                        <img
-                            alt="..."
-                            src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
-                        />
-                      </a>
+                      <img
+                          alt="..."
+                          src={require("assets/img/faces/vito1.jpg")}
+                      />
                     </div>
                     <CardBody>
-                      <a href="#pablo" onClick={e => e.preventDefault()}>
-                        <div className="author">
-                          <CardTitle tag="h4" style={{color: "#fff"}}>Henry Ford</CardTitle>
-                          <h6 className="card-category" style={{color: "#fff"}}>Product Manager</h6>
-                        </div>
-                      </a>
+                      <div className="author">
+                        <CardTitle tag="h4" style={{color: "#fff"}}>Vitko Kapusta</CardTitle>
+                        <h6 className="card-category" style={{color: "#fff"}}>Chlapec na vsetko</h6>
+                      </div>
                       <p className="card-description text-center" style={{color: "#fff"}}>
                         Teamwork is so important that it is virtually impossible
                         for you to reach the heights of your capabilities or make
@@ -133,20 +129,16 @@ function LandingPage() {
                 <Col md="4">
                   <Card className="card-profile card-plain">
                     <div className="card-avatar">
-                      <a href="#pablo" onClick={e => e.preventDefault()}>
-                        <img
-                            alt="..."
-                            src={require("assets/img/faces/joe-gardner-2.jpg")}
-                        />
-                      </a>
+                      <img
+                          alt="..."
+                          src={require("assets/img/faces/dominika.jpg")}
+                      />
                     </div>
                     <CardBody>
-                      <a href="#pablo" onClick={e => e.preventDefault()}>
                         <div className="author">
-                          <CardTitle tag="h4" style={{color: "#fff"}}>Sophie West</CardTitle>
-                          <h6 className="card-category" style={{color: "#fff"}}>Designer</h6>
+                          <CardTitle tag="h4" style={{color: "#fff"}}>Dominika Strapata</CardTitle>
+                          <h6 className="card-category" style={{color: "#fff"}}>Chatarka</h6>
                         </div>
-                      </a>
                       <p className="card-description text-center" style={{color: "#fff"}}>
                         A group becomes a team when each member is sure enough of
                         himself and his contribution to praise the skill of the
@@ -191,7 +183,7 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 className="text-center" style={{paddingBottom: "3%"}}>Galeria</h2>
+                <h2 id="section3" className="text-center" style={{paddingBottom: "3%"}}>Galeria</h2>
                 <Gallery/>
               </Col>
             </Row>
@@ -208,7 +200,7 @@ function LandingPage() {
           <div className="filter" />
           <Container style={{color: "#fff"} }>
             <div className="motto text-center" >
-              <Row >
+              <Row id="section4">
                 <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>Cennik</h2></Col>
                 <Col md="8" style={{textAlign: "center", margin: "0 auto"}}>
                   <Table hover >

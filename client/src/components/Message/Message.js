@@ -65,7 +65,7 @@ function LandingPage() {
                   }) => (
                     <div className="section landing-section">
                         <Container>
-                            <Row>
+                            <Row id="section5">i
                                 <Col className="ml-auto mr-auto" md="8">
                                     <h2 className="text-center">Rezervacia noclahu</h2>
                                     <Form className="contact-form">

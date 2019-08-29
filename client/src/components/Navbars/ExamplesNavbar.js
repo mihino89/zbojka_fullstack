@@ -20,6 +20,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
+import { Link as LinkScroll} from "react-scroll";
 
 // reactstrap components
 import {
@@ -47,13 +48,13 @@ function ExamplesNavbar() {
   React.useEffect(() => {
     const updateNavbarColor = () => {
       if (
-        document.documentElement.scrollTop > 299 ||
-        document.body.scrollTop > 299
+        document.documentElement.scrollTop > 199 ||
+        document.body.scrollTop > 199
       ) {
         setNavbarColor("");
       } else if (
-        document.documentElement.scrollTop < 300 ||
-        document.body.scrollTop < 300
+        document.documentElement.scrollTop < 200 ||
+        document.body.scrollTop < 200
       ) {
         setNavbarColor("navbar-transparent");
       }
@@ -68,7 +69,7 @@ function ExamplesNavbar() {
   return (
     <Navbar
       className={classnames("fixed-top", navbarColor)}
-      color-on-scroll="300"
+      color-on-scroll="200"
       expand="lg"
     >
       <Container>
@@ -100,29 +101,69 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="/" tag={Link}>
+              <LinkScroll
+                  to="section1"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {500}
+                  className="nav-link"
+                  style={{cursor: "pointer"}}
+              >
                 <i className="nc-icon nc-bank" /> O chate
-              </NavLink>
+              </LinkScroll>
             </NavItem>
             <NavItem>
-              <NavLink to="/" tag={Link}>
+              <LinkScroll
+                  to="section2"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {500}
+                  className="nav-link"
+                  style={{cursor: "pointer"}}
+              >
                 <i className="nc-icon nc-badge" /> My
-              </NavLink>
+              </LinkScroll>
             </NavItem>
             <NavItem>
-              <NavLink to="/" tag={Link}>
-                <i className="nc-icon nc-cart-simple" /> Cenník
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/" tag={Link}>
+              <LinkScroll
+                  to="section3"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {500}
+                  className="nav-link"
+                  style={{cursor: "pointer"}}
+              >
                 <i className="nc-icon nc-album-2" /> Galeria
-              </NavLink>
+              </LinkScroll>
             </NavItem>
             <NavItem>
-              <NavLink to="/" tag={Link}>
+              <LinkScroll
+                  to="section4"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {500}
+                  className="nav-link"
+                  style={{cursor: "pointer"}}
+              >
+                <i className="nc-icon nc-cart-simple" /> Cenník
+              </LinkScroll>
+            </NavItem>
+            <NavItem>
+              <LinkScroll
+                  to="section5"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {500}
+                  className="nav-link"
+                  style={{cursor: "pointer"}}
+              >
                 <i className="nc-icon nc-email-85" /> Kontakt
-              </NavLink>
+              </LinkScroll>
             </NavItem>
             <NavItem>
               <NavLink

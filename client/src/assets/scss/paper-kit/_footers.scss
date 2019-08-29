@@ -37,6 +37,8 @@
   opacity: 1;
 }
 .footer .copyright {
+    position: relative;
+    top: 15px;
   color: #777777;
   padding: 10px 0px;
   font-size: 14px;
@@ -75,9 +77,6 @@
             }
 
             a:not(.btn){
-                color: $font-color;
-                display: block;
-                font-size: $font-size-h6;
                 margin-bottom: 3px;
                 &:hover,
                 &:focus{
