@@ -1,0 +1,59 @@
+{
+  "headline": "Objavte svet možností a krásy",
+  "see_more": "Pozriet viac",
+  "menu": {
+    "home": "O chate",
+    "about_us": "My",
+    "gallery": "Galéria",
+    "prices": "Cenník",
+    "contact": "Kontakt"
+  },
+  "welcome": {
+    "title": "Pár slov o chate",
+    "title_description": "Zbojnícka chata má celoročnú prevádzku. Nachádza sa vo Veľkej Studenej doline, ktorú ohraničujú Slavkovský štít, Východná Vysoká, Svišťový štít, Javorový štít, Široká veža, Prostredný hrot a priľahlé hrebene. Je to dolina s najväčším počtom plies (26) rôznych veľkostí a charakterov, je bohatá na tatranskú faunu i flóru. Je tu nespočetné množstvo turistických, horolezeckých, skialpinistických a prírodovedeckých aktivít.",
+    "acommodation_title": "Ubytovanie",
+    "acommodation_intro": "Chata má charakter turistickej ubytovne. Ponúka nocľah na poschodových posteliach s kapacitou 16 ľudí. Ubytovaní majú možnosť prípravy vlastných jedál v malej kuchynke pri nocľahárni, kde je k dispozícii plynový varič, úžitková voda a sušiareň. WC je vo vonkajšom priestore za chatou. Kuchyňa je taktiež otvorená celoročne pre všetkých návštevníkov.",
+    "access": "Prístup",
+    "access_intro": "Na chatu sa môžete dostať modrou značkou zo Starolesnianskej poľany. Na ňu sa dá prísť napríklad z Hrebienka po magistrále. Výstup od Starolesnianskej poľany trvá dve a pol hodiny. Je to pomerne mierne stúpanie, v polovici cesty je kúsok zabezpečený reťazami, potom je stúpanie trochu strmšie a pred chatou sa opäť zmierňuje. Pri Zbojníckej chate končí žltá značka vedúca z Malej studenej doliny cez Priečne sedlo."
+  },
+  "about_us": {
+    "title": "Pár slov o nás",
+    "first_person": {
+      "headline": "chlapec na všetko",
+      "description": "Tímová práca je taká dôležitá, že je pre vás prakticky nemožné dosiahnuť výšku svojich schopností alebo zarobiť peniaze, ktoré chcete, bez toho, aby ste sa v tom veľmi dobre stali."
+    },
+    "second_person": {
+      "headline": "pani chatárka",
+      "description": "Skupina sa stáva tímom, keď je každý člen presvedčený o sebe a svojom príspevku, aby ocenil zručnosti ostatných. Nikto nemôže zapískať symfóniu. Na jeho hranie je potrebný orchester."
+    },
+    "third_person": {
+      "headline": "developer",
+      "description": "The strength of the team is each individual member. The strength of each member is the team. If you can laugh together, you can work together, silence isn’t golden, it’s deadly."
+    }
+  },
+  "gallery": "Galéria",
+  "prices": {
+    "title":  "Cenník",
+    "osoba_noc": "Osoba/noc",
+    "accomodation": "Ubytovanie",
+    "semi_pension": "1/2 Penzia",
+    "turists": "Turisti",
+    "children": "Deti",
+    "breakfast": "Raňajky",
+    "dinner": "Večera",
+    "bedclothes": "Prádlo",
+    "taxes": "Daň z ubytovania"
+  },
+  "reservation": {
+    "title": "Rezervácia",
+    "name": "Meno",
+    "surname": "Priezvisko",
+    "phone_number": "Tel. číslo",
+    "email": "Email",
+    "message": "Správa",
+    "message_text": "Spýtajte sa nás o rezerváciu ubytovania...",
+    "send_button": "Odoslať správu"
+  },
+  "owners": "Majitelia",
+  "partners": "Partneri"
+}

@@ -1,0 +1,59 @@
+{
+  "headline": "Odkryj świat możliwości i piękna",
+  "see_more": "Zobacz więcej",
+  "menu": {
+    "home": "O domku",
+    "about_us": "O nas",
+    "gallery": "Galeria",
+    "prices": "Cennik",
+    "contact": "Kontakt"
+  },
+  "welcome": {
+    "title": "Kilka słów o domku",
+    "title_description": "Schronisko Zbójnickie jest czynne przez cały rok. Znajduje się w Dolinie Staroleśnej (Veľká Studená dolina), którą otaczają Sławkowski Szczyt, Mała Wysoka, Świstowy Szczyt, Jaworowy Szczyt, Mały Lodowy Szczyt, Pośrednia Grań i przyległe granie. Dolina ta ma największą liczbę stawów (26) różnych rozmiarów i charakterów, bogatą faunę i florę tatrzańską. Istnieje tu mnóstwo możliwości prowadzenia działalności turystycznej, wspinaczkowej, skituringowej i czynności z dziedziny nauk przyrodniczych. ",
+    "acommodation_title": "Mieszkanie",
+    "acommodation_intro": "Schronisko oferuje zakwaterowanie turystyczne, noclegi na łóżkach piętrowych (16 miejsc). Zakwaterowani goście mają możliwość przygotowania własnego posiłku w małej kuchni przy pokoju noclegowym, gdzie jest do dyspozycji kuchenka gazowa, woda użytkowa i suszarka. Toaleta jest do dyspozycji na zewnątrz za schroniskiem. Kuchnia otwarta jest również przez cały rok dla wszystkich zwiedzających.",
+    "access": "Dostęp",
+    "access_intro": "Do schroniska można dotrzeć po niebieskim szlaku z Staroleśnej Polany. Do niej możesz dojść na przykład z Hrebienka po magistrali. Dojście od Staroleśnej Polany trwa dwie i pół godziny. Chodzi o stosunkowo łagodne podejście, w połowie drogi jest krótki odcinek zabezpieczony łańcuchami, następnie jest ścieżka bardziej stroma, a przed schroniskiem ponownie łagodnieje. Przy Schronisku Zbójnickim kończy żółty szlak wiodący z Doliny Małej Zimnej Wody (Malá Studená dolina) przez Czerwoną Ławkę (Priečne sedlo)."
+  },
+  "about_us": {
+    "title": "Kilka słów o nas",
+    "first_person": {
+      "headline": "Chłopiec na wszystko",
+      "description": "Praca zespołowa jest tak ważna, że jest praktycznie niemożliwe, abyś osiągnął szczyty swoich możliwości lub zarobił pieniądze, które chcesz, bez bycia w tym bardzo dobrym."
+    },
+    "second_person": {
+      "headline": "właścicielka",
+      "description": "Grupa staje się zespołem, gdy każdy członek jest wystarczająco pewny siebie i swojego wkładu, aby chwalić umiejętności innych. Nikt nie może gwizdać symfonii. Gra na orkiestrze."
+    },
+    "third_person": {
+      "headline": "developer",
+      "description": "The strength of the team is each individual member. The strength of each member is the team. If you can laugh together, you can work together, silence isn’t golden, it’s deadly."
+    }
+  },
+  "gallery": "Galeria",
+  "prices": {
+    "title":  "Cennik",
+    "osoba_noc": "Osoba/doba",
+    "accomodation": "Mieszkanie",
+    "semi_pension": "Obiadokolacja",
+    "turists": "Turyści",
+    "children": "Dzieci",
+    "brekfast": "Sniadanie",
+    "dinner": "Kolacja",
+    "bedclothes": "Bielizna",
+    "taxes": "Podatek od zakwaterowania"
+  },
+  "reservation": {
+    "title": "Rezerwacja",
+    "name": "Imię",
+    "surname": "Nazwisko",
+    "phone_number": "Numer telefonu",
+    "email": "Email",
+    "message": "Wiadomość",
+    "message_text": "Zapytaj nas o rezerwację zakwaterowania ...",
+    "send_button": "Wyślij wiadomość"
+  },
+  "owners": "Właściciele",
+  "partners": "Partnerzy"
+}

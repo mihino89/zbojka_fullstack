@@ -1,0 +1,59 @@
+{
+  "headline": "Discover a world of possibilities and beauty",
+  "see_more": "See more",
+  "menu": {
+    "home": "About cottage",
+    "about_us": "About us",
+    "gallery": "Gallery",
+    "prices": "Price",
+    "contact": "Contact"
+  },
+  "welcome": {
+    "title": "A few words about cottage",
+    "title_description": "Zbojnícka Chalet is open all year round. It is located in Veľká Studená dolina (the Great Cold Valley), which is surrounded by numerous peaks, like Slavkovský štít, Východná Vysoká, Svišťový štít, Javorový štít, Široká veža, Prostredný hrot and others. Our valley has the largest number of mountain lakes (26) and the richest fauna and flora in High Tatras. You will have a hard time choosing from among the many activities you can do in the vicinity of our chalet - hiking, mountain climbing, skiing and nature studying. ",
+    "acommodation_title": "Acommodation",
+    "acommodation_intro": "We offer lodging house accommodation on bunk beds with a capacity of 16 people. There is a small kitchen area next to the bunk room, where overnight guests can prepare their own food. It is equipped with a gas cooker, service water and a drying room. The toilets are in the exterior, detached from the chalet. Our restaurant is open all year round for all our visitors.",
+    "access": "Getting here",
+    "access_intro": "You can access our chalet by following the blue marked path from Starolesnianska poľana. You can join the path by walking the red Tatra Magistrale from Hrebienok. The ascent from Starolesnianska poľana to the chalet takes about two to two and a half hours. The trail gently slopes uphill and there is a short part of the path, which is secured by chains, providing extra handholds. Afterwards, the path gets a bit steeper and then levels again in front of the chalet. The yellow marked path from Malá Studená dolina (the Small Cold Valley) via Priečne sedlo ends next to the chalet."
+  },
+  "about_us": {
+    "title": "A few words about us",
+    "first_person": {
+      "headline": "Boy on everything",
+      "description": "Teamwork is so important that it is virtually impossible for you to reach the heights of your capabilities or make the money that you want without becoming very good at it."
+    },
+    "second_person": {
+      "headline": "mistress",
+      "description": "A group becomes a team when each member is sure enough of himself and his contribution to praise the skill of the others. No one can whistle a symphony. It takes an orchestra to play it."
+    },
+    "third_person": {
+      "headline": "developer",
+      "description": "The strength of the team is each individual member. The strength of each member is the team. If you can laugh together, you can work together, silence isn’t golden, it’s deadly."
+    }
+  },
+  "gallery": "Gallery",
+  "prices": {
+    "title":  "Price",
+    "osoba_noc": "Person/Night",
+    "accomodation": "Accommodation",
+    "semi_pension": "Half board",
+    "turists": "Tourists",
+    "children": "Children",
+    "breakfast": "Breakfast",
+    "dinner": "Dinner",
+    "bedclothes": "Bedding",
+    "taxes": "Tax from accomodation"
+  },
+  "reservation": {
+    "title": "Reservation",
+    "name": "Name",
+    "surname": "Surname",
+    "phone_number": "Phone number",
+    "email": "Email",
+    "message": "Message",
+    "message_text": "Ask as about your request reservation...",
+    "send_button": "Send message"
+  },
+  "owners": "Owners",
+  "partners": "Partners"
+}

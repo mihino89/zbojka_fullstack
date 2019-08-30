@@ -21,6 +21,7 @@ import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 import { Link as LinkScroll} from "react-scroll";
+import { withTranslation } from 'react-i18next';
 
 // reactstrap components
 import {
@@ -33,17 +34,19 @@ import {
   Container, DropdownToggle, DropdownMenu, DropdownItem, UncontrolledDropdown
 } from "reactstrap";
 
-function ExamplesNavbar() {
+function ExamplesNavbar(props) {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
   const [index, setIndex] = useState(0);
+
+  const {t, i18n }  = props;
 
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
     document.documentElement.classList.toggle("nav-open");
   };
 
-  const countries = ["svk", "GB", "DE", "PL" ];
+  const countries = ["sk", "en", "de", "pl" ];
 
   React.useEffect(() => {
     const updateNavbarColor = () => {
@@ -110,7 +113,10 @@ function ExamplesNavbar() {
                   className="nav-link"
                   style={{cursor: "pointer"}}
               >
-                <i className="nc-icon nc-bank" /> O chate
+                <i className="nc-icon nc-bank" />
+                {
+                  t("menu.home")
+                }
               </LinkScroll>
             </NavItem>
             <NavItem>
@@ -123,7 +129,10 @@ function ExamplesNavbar() {
                   className="nav-link"
                   style={{cursor: "pointer"}}
               >
-                <i className="nc-icon nc-badge" /> My
+                <i className="nc-icon nc-badge" />
+                {
+                  t("menu.about_us")
+                }
               </LinkScroll>
             </NavItem>
             <NavItem>
@@ -136,7 +145,10 @@ function ExamplesNavbar() {
                   className="nav-link"
                   style={{cursor: "pointer"}}
               >
-                <i className="nc-icon nc-album-2" /> Galeria
+                <i className="nc-icon nc-album-2" />
+                {
+                  t("menu.gallery")
+                }
               </LinkScroll>
             </NavItem>
             <NavItem>
@@ -149,7 +161,10 @@ function ExamplesNavbar() {
                   className="nav-link"
                   style={{cursor: "pointer"}}
               >
-                <i className="nc-icon nc-cart-simple" /> Cenník
+                <i className="nc-icon nc-cart-simple" />
+                {
+                  t("menu.prices")
+                }
               </LinkScroll>
             </NavItem>
             <NavItem>
@@ -162,7 +177,10 @@ function ExamplesNavbar() {
                   className="nav-link"
                   style={{cursor: "pointer"}}
               >
-                <i className="nc-icon nc-email-85" /> Kontakt
+                <i className="nc-icon nc-email-85" />
+                {
+                  t("menu.contact")
+                }
               </LinkScroll>
             </NavItem>
             <NavItem>
@@ -213,7 +231,8 @@ function ExamplesNavbar() {
                           <DropdownItem
                               onClick={e => {
                                 e.preventDefault();
-                                setIndex(countries.indexOf(res))
+                                setIndex(countries.indexOf(res));
+                                i18n.changeLanguage(res)
                               }}
                               style={{padding: "10% 15% 0 15%", textAlign: "center"}}
                           >
@@ -232,4 +251,4 @@ function ExamplesNavbar() {
   );
 }
 
-export default ExamplesNavbar;
+export default withTranslation('common')(ExamplesNavbar);

@@ -952,6 +952,11 @@
     }
 
 }
+.footer_email{
+    display: inline;
+    font-weight: 500;
+    margin: 0;
+}
 
 
 @media screen and (max-width: 374px){
@@ -961,6 +966,16 @@
                 float: none !important;
             }
         }
+    }
+    .motto{
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+    .motto .title{
+        margin: 0 0 10px 0;
+    }
+    .footer_email{
+        display: block;
     }
     .full-screen.login{
         .card.card-register{

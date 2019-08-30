@@ -35,8 +35,9 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 import Gallery from '../index-sections/Gallery'
 import PreFooter from '../index-sections/PreFooter'
 import Message from '../../components/Message/Message'
+import { withTranslation } from 'react-i18next';
 
-function LandingPage() {
+function LandingPage(props) {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -44,6 +45,7 @@ function LandingPage() {
       document.body.classList.remove("profile-page");
     };
   });
+  const {t, i18n }  = props;
 
   return (
     <>
@@ -54,9 +56,15 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title" id="section1">Pár slov o chate</h2>
+                <h2 className="title" id="section1">
+                  {
+                    t('welcome.title')
+                  }
+                </h2>
                 <h5 className="description">
-                  Zbojnícka chata má celoročnú prevádzku. Nachádza sa vo Veľkej Studenej doline, ktorú ohraničujú Slavkovský štít, Východná Vysoká, Svišťový štít, Javorový štít, Široká veža, Prostredný hrot a priľahlé hrebene. Je to dolina s najväčším počtom plies (26) rôznych veľkostí a charakterov, je bohatá na tatranskú faunu i flóru. Je tu nespočetné množstvo turistických, horolezeckých, skialpinistických a prírodovedeckých aktivít.
+                  {
+                    t('welcome.title_description')
+                  }
                 </h5>
                 <br />
               </Col>
@@ -70,9 +78,15 @@ function LandingPage() {
                     <i className="nc-icon nc-bank" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title" style={{marginTop: 0}}>Ubytovanie</h4>
+                    <h4 className="info-title" style={{marginTop: 0}}>
+                      {
+                        t('welcome.acommodation_title')
+                      }
+                    </h4>
                     <p className="description">
-                      Chata má charakter turistickej ubytovne. Ponúka nocľah na poschodových posteliach s kapacitou 16 ľudí. Ubytovaní majú možnosť prípravy vlastných jedál v malej kuchynke pri nocľahárni, kde je k dispozícii plynový varič, úžitková voda a sušiareň. WC je vo vonkajšom priestore za chatou. Kuchyňa je taktiež otvorená celoročne pre všetkých návštevníkov.
+                      {
+                        t('welcome.acommodation_intro')
+                      }
                     </p>
                   </div>
                 </div>
@@ -83,9 +97,15 @@ function LandingPage() {
                     <i className="nc-icon nc-compass-05" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title" style={{marginTop: 0}}>Pristup</h4>
+                    <h4 className="info-title" style={{marginTop: 0}}>
+                      {
+                        t('welcome.access')
+                      }
+                    </h4>
                     <p>
-                      Na chatu sa môžete dostať modrou značkou zo Starolesnianskej poľany. Na ňu sa dá prísť napríklad z Hrebienka po magistrále. Výstup od Starolesnianskej poľany trvá dve a pol hodiny. Je to pomerne mierne stúpanie, v polovici cesty je kúsok zabezpečený reťazami, potom je stúpanie trochu strmšie a pred chatou sa opäť zmierňuje. Pri Zbojníckej chate končí žltá značka vedúca z Malej studenej doliny cez Priečne sedlo.
+                      {
+                        t('welcome.access_intro')
+                      }
                     </p>
                   </div>
                 </div>
@@ -104,7 +124,11 @@ function LandingPage() {
           <Container style={{color: "#fff"}}>
             <div className="motto text-center">
               <Row id="section2">
-                <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>Let's talk about us</h2></Col>
+                <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>
+                  {
+                    t("about_us.title")
+                  }
+                </h2></Col>
                 <Col md="4">
                   <Card className="card-profile card-plain">
                     <div className="card-avatar">
@@ -116,12 +140,16 @@ function LandingPage() {
                     <CardBody>
                       <div className="author">
                         <CardTitle tag="h4" style={{color: "#fff"}}>Vitko Kapusta</CardTitle>
-                        <h6 className="card-category" style={{color: "#fff"}}>Chlapec na vsetko</h6>
+                        <h6 className="card-category" style={{color: "#fff"}}>
+                          {
+                            t("about_us.first_person.headline")
+                          }
+                        </h6>
                       </div>
                       <p className="card-description text-center" style={{color: "#fff"}}>
-                        Teamwork is so important that it is virtually impossible
-                        for you to reach the heights of your capabilities or make
-                        the money that you want without becoming very good at it.
+                        {
+                          t("about_us.first_person.description")
+                        }
                       </p>
                     </CardBody>
                   </Card>
@@ -137,13 +165,16 @@ function LandingPage() {
                     <CardBody>
                         <div className="author">
                           <CardTitle tag="h4" style={{color: "#fff"}}>Dominika Strapata</CardTitle>
-                          <h6 className="card-category" style={{color: "#fff"}}>Chatarka</h6>
+                          <h6 className="card-category" style={{color: "#fff"}}>
+                            {
+                              t("about_us.second_person.headline")
+                            }
+                          </h6>
                         </div>
                       <p className="card-description text-center" style={{color: "#fff"}}>
-                        A group becomes a team when each member is sure enough of
-                        himself and his contribution to praise the skill of the
-                        others. No one can whistle a symphony. It takes an
-                        orchestra to play it.
+                        {
+                          t("about_us.second_person.description")
+                        }
                       </p>
                     </CardBody>
                   </Card>
@@ -162,14 +193,17 @@ function LandingPage() {
                       <a href="#pablo" onClick={e => e.preventDefault()}>
                         <div className="author">
                           <CardTitle tag="h4" style={{color: "#fff"}}>Robert Orben</CardTitle>
-                          <h6 className="card-category" style={{color: "#fff"}}>Developer</h6>
+                          <h6 className="card-category" style={{color: "#fff"}}>
+                            {
+                              t("about_us.third_person.headline")
+                            }
+                          </h6>
                         </div>
                       </a>
                       <p className="card-description text-center" style={{color: "#fff"}}>
-                        The strength of the team is each individual member. The
-                        strength of each member is the team. If you can laugh
-                        together, you can work together, silence isn’t golden,
-                        it’s deadly.
+                        {
+                          t("about_us.third_person.description")
+                        }
                       </p>
                     </CardBody>
                   </Card>
@@ -183,7 +217,11 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="12">
-                <h2 id="section3" className="text-center" style={{paddingBottom: "3%"}}>Galeria</h2>
+                <h2 id="section3" className="text-center" style={{paddingBottom: "3%"}}>
+                  {
+                    t("gallery")
+                  }
+                </h2>
                 <Gallery/>
               </Col>
             </Row>
@@ -201,21 +239,41 @@ function LandingPage() {
           <Container style={{color: "#fff"} }>
             <div className="motto text-center" >
               <Row id="section4">
-                <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>Cennik</h2></Col>
+                <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>
+                  {
+                    t("prices.title")
+                  }
+                </h2></Col>
                 <Col md="8" style={{textAlign: "center", margin: "0 auto"}}>
                   <Table hover >
                     <thead>
                     <tr style={{color: "#fff"}}>
                       <th >#</th>
-                      <th>Osoba/noc</th>
-                      <th>Ubytovanie</th>
-                      <th>1/2 Penzia</th>
+                      <th>
+                        {
+                          t("prices.osoba_noc")
+                        }
+                      </th>
+                      <th>
+                        {
+                          t("prices.accomodation")
+                        }
+                      </th>
+                      <th>
+                        {
+                          t("prices.semi_pension")
+                        }
+                      </th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr style={{color: "#fff"}}>
                       <th scope="row">1</th>
-                      <td>Turisti</td>
+                      <td>
+                        {
+                          t("prices.turists")
+                        }
+                      </td>
                       <td>22€</td>
                       <td>35€</td>
                     </tr>
@@ -233,31 +291,51 @@ function LandingPage() {
                     </tr>
                     <tr style={{color: "#fff"}}>
                       <th scope="row">4</th>
-                      <td>Deti</td>
+                      <td>
+                        {
+                          t("prices.children")
+                        }
+                      </td>
                       <td>8€</td>
                       <td>18€</td>
                     </tr>
                     <tr style={{color: "#fff"}}>
                       <th scope="row">5</th>
-                      <td>Ranajky</td>
+                      <td>
+                        {
+                          t("prices.breakfast")
+                        }
+                      </td>
                       <td>6€</td>
                       <td></td>
                     </tr>
                     <tr style={{color: "#fff"}}>
                       <th scope="row">6</th>
-                      <td>Vecera</td>
+                      <td>
+                        {
+                          t("prices.dinner")
+                        }
+                      </td>
                       <td>7€</td>
                       <td></td>
                     </tr>
                     <tr style={{color: "#fff"}}>
                       <th scope="row">7</th>
-                      <td>Pradlo</td>
+                      <td>
+                        {
+                          t("prices.bedclothes")
+                        }
+                      </td>
                       <td>2€</td>
                       <td></td>
                     </tr>
                     <tr style={{color: "#fff"}}>
                       <th scope="row">8</th>
-                      <td>Dan z ubytovania</td>
+                      <td>
+                        {
+                          t("prices.taxes")
+                        }
+                      </td>
                       <td>1€</td>
                       <td></td>
                     </tr>
@@ -276,4 +354,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default withTranslation('common')(LandingPage);

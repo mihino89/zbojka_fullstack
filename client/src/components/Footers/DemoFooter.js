@@ -39,7 +39,7 @@ function DemoFooter() {
                   +421 903 638 000
                 </a>
               </li>
-              <li style={{fontWeight: "500", display: "inline"}}>
+              <li className="footer_email" style={{margin: "0 3px", padding: "5px 15px"}}>
                 Email: &nbsp;
                 <a
                   href="#"

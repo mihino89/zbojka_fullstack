@@ -1,6 +1,7 @@
 import React from "react";
 import {Formik} from "formik";
 import axios from 'axios'
+import { withTranslation } from 'react-i18next';
 
 import {
     Button,
@@ -14,7 +15,7 @@ import {
     Col,
 } from "reactstrap";
 
-function LandingPage() {
+function LandingPage(props) {
     const initFormValues = {
         name: '',
         surname: '',
@@ -30,6 +31,7 @@ function LandingPage() {
         values.phone_number = '';
         values.message = '';
     };
+    const {t }  = props;
 
     const handleSubmit = (values, setSubmitting) => {
         setSubmitting(true);
@@ -67,11 +69,19 @@ function LandingPage() {
                         <Container>
                             <Row id="section5">i
                                 <Col className="ml-auto mr-auto" md="8">
-                                    <h2 className="text-center">Rezervacia noclahu</h2>
+                                    <h2 className="text-center">
+                                        {
+                                            t("reservation.title")
+                                        }
+                                    </h2>
                                     <Form className="contact-form">
                                         <Row>
                                             <Col md="6">
-                                                <label>Meno</label>
+                                                <label>
+                                                    {
+                                                        t("reservation.name")
+                                                    }
+                                                </label>
                                                 <InputGroup>
                                                     <InputGroupAddon addonType="prepend">
                                                         <InputGroupText>
@@ -79,7 +89,7 @@ function LandingPage() {
                                                         </InputGroupText>
                                                     </InputGroupAddon>
                                                     <Input
-                                                        placeholder="Name"
+                                                        placeholder={t("reservation.name")}
                                                         type="text"
                                                         name="name"
                                                         error={touched.name && Boolean(errors.name)}
@@ -89,7 +99,11 @@ function LandingPage() {
                                                 </InputGroup>
                                             </Col>
                                             <Col md="6">
-                                                <label>Priezvisko</label>
+                                                <label>
+                                                    {
+                                                        t("reservation.surname")
+                                                    }
+                                                </label>
                                                 <InputGroup>
                                                     <InputGroupAddon addonType="prepend">
                                                         <InputGroupText>
@@ -97,7 +111,7 @@ function LandingPage() {
                                                         </InputGroupText>
                                                     </InputGroupAddon>
                                                     <Input
-                                                        placeholder="Priezvisko"
+                                                        placeholder={t("reservation.surname")}
                                                         type="text"
                                                         name="surname"
                                                         error={touched.surname && Boolean(errors.surname)}
@@ -107,7 +121,11 @@ function LandingPage() {
                                                 </InputGroup>
                                             </Col>
                                             <Col md="6">
-                                                <label>Tel. cislo</label>
+                                                <label>
+                                                    {
+                                                        t("reservation.phone_number")
+                                                    }
+                                                </label>
                                                 <InputGroup>
                                                     <InputGroupAddon addonType="prepend">
                                                         <InputGroupText>
@@ -115,7 +133,7 @@ function LandingPage() {
                                                         </InputGroupText>
                                                     </InputGroupAddon>
                                                     <Input
-                                                        placeholder="Tel. cislo"
+                                                        placeholder={t("reservation.phone_number")}
                                                         type="text"
                                                         name="phone_number"
                                                         error={touched.phone_number && Boolean(errors.phone_number)}
@@ -125,7 +143,11 @@ function LandingPage() {
                                                 </InputGroup>
                                             </Col>
                                             <Col md="6">
-                                                <label>Email</label>
+                                                <label>
+                                                    {
+                                                        t("reservation.email")
+                                                    }
+                                                </label>
                                                 <InputGroup>
                                                     <InputGroupAddon addonType="prepend">
                                                         <InputGroupText>
@@ -143,9 +165,13 @@ function LandingPage() {
                                                 </InputGroup>
                                             </Col>
                                         </Row>
-                                        <label>Správa</label>
+                                        <label>
+                                            {
+                                                t("reservation.message")
+                                            }
+                                        </label>
                                         <Input
-                                            placeholder="Tell us your thoughts and feelings..."
+                                            placeholder={t("reservation.message_text")}
                                             type="textarea"
                                             rows="4"
                                             name="message"
@@ -163,7 +189,9 @@ function LandingPage() {
                                                         e.preventDefault();
                                                         handleSubmit()
                                                     }}>
-                                                    Odoslat spravu
+                                                    {
+                                                        t("reservation.send_button")
+                                                    }
                                                 </Button>
                                             </Col>
                                         </Row>
@@ -178,4 +206,4 @@ function LandingPage() {
     );
 }
 
-export default LandingPage;
+export default withTranslation('common')(LandingPage);

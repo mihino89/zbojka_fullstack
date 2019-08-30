@@ -1,0 +1,59 @@
+{
+  "headline": "Entdecken Sie eine Welt voller Möglichkeiten und Schönheiten",
+  "see_more": "Mehr sehen",
+  "menu": {
+    "home": "Über Hütte",
+    "about_us": "Über uns",
+    "gallery": "Galerie",
+    "prices": "Preisliste",
+    "contact": "Kontakt"
+  },
+  "welcome": {
+    "title": "Ein paar Worte zur Hütte",
+    "title_description": "Die Zbojnícka Hütte ist ganzjährig geöffnet. Sie befindet sich in Veľká Studená dolina (das Große Kalte Tal) und ist von Slavkovský štít, Východná Vysoká, Svišťový štít, Javorový štít, Široká veža, Prostredný hrot und anderen Berggipfeln umgeben. Unser Tal hat die größte Anzahl von Bergseen (26) und einer der reichsten Fauna und Flora in der Hohen Tatra. Es gibt viele Aktivitäten, die Sie in der Nähe von unserer Hütte tun können: Wandern, Bergsteigen, Skifahren und Studium der Natur unternehmen.",
+    "acommodation_title": "Unterkunft",
+    "acommodation_intro": "Wir bieten Unterkunft auf Etagenbetten mit einer Kapazität von 16 Personen. Eine kleine Küche neben dem Schlafraum steht den untergebrachten Gästen zur Verfügung, wo Sie ihr eigenes Essen zubereiten können. Die Küche ist mit einem Gasherd, Brauchwasser und einem Trockenraum ausgestattet. Die Toiletten befinden sich im Außenbereich der Hütte. Unser Restaurant ist ganzjährig für alle unsere Besucher geöffnet.",
+    "access": "Zugang",
+    "access_intro": "Von Starolesnianska poľana können Sie den blau markierten Weg folgen. Den Weg erreichen Sie von der roten Tatra Magistrale aus Hrebienok. Der Aufstieg von Starolesnianska poľana zur Hütte dauert etwa zwei oder zweieinhalb Stunden. Der Weg steigt gemäßigt bergauf, in der Mitte gibt es einen kurzen Teil, der durch Ketten gesichert ist, danach wird der Weg etwas steiler und dann wieder sanfter vor der Hütte. Der gelb markierte Weg von Malá Studená dolina (das Kleine Kalte Tal) über Priečne sedlo endet neben der Hütte."
+  },
+  "about_us": {
+    "title": "Ein paar Worte über uns",
+    "first_person": {
+      "headline": "Junge auf alles",
+      "description": "Teamwork ist so wichtig, dass es praktisch unmöglich für Sie ist, die Grenzen Ihrer Fähigkeiten zu erreichen oder das Geld zu verdienen, das Sie möchten, ohne sehr gut darin zu werden."
+    },
+    "second_person": {
+      "headline": "Inhaberin",
+      "description": "Eine Gruppe wird zu einem Team, wenn sich jedes Mitglied seiner selbst und seines Beitrags sicher genug ist, um die Fähigkeiten der anderen zu loben. Niemand kann eine Symphonie pfeifen. Es braucht ein Orchester, um es zu spielen."
+    },
+    "third_person": {
+      "headline": "developer",
+      "description": "The strength of the team is each individual member. The strength of each member is the team. If you can laugh together, you can work together, silence isn’t golden, it’s deadly."
+    }
+  },
+  "gallery": "Galerie",
+  "prices": {
+    "title":  "Preisliste",
+    "osoba_noc": "Person/Nacht",
+    "accomodation": "Unterkunft",
+    "semi_pension": "Halbpension",
+    "turists": "Turisten",
+    "children": "Kinder",
+    "brekfast": "Fruhstuck",
+    "dinner": "Abendessen",
+    "bedclothes": "Bettwäsche",
+    "taxes": "Unterkunftsteuer"
+  },
+  "reservation": {
+    "title": "Reservierung",
+    "name": "Vorname",
+    "surname": "Nachname",
+    "phone_number": "Telefonnummer",
+    "email": "Email",
+    "message": "Botschaft",
+    "message_text": "Fragen Sie uns nach der Buchung einer Unterkunft ...",
+    "send_button": "Nachricht senden"
+  },
+  "owners": "Besitzer",
+  "partners": "Partner"
+}

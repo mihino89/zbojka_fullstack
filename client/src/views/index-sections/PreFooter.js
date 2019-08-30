@@ -18,15 +18,18 @@
 */
 /*eslint-disable*/
 import React from "react";
+import { withTranslation } from 'react-i18next';
 
 // reactstrap components
 import {Row, Container, Col, Card, CardBody, CardTitle} from "reactstrap";
 
-function PreFooter() {
+function PreFooter(props) {
+    const {t }  = props;
+
     return (
         <div
             style={{
-                backgroundImage: "url(" + require("assets/img/zbojka/gall_7.jpeg") + ")", backgroundPosition: "center center", backgroundSize: "cover", marginTop: 70
+                backgroundImage: "url(" + require("assets/img/zbojka/gall_7.jpeg") + ")", backgroundPosition: "center center", backgroundSize: "cover"
             }}
             className="page-header"
             data-parallax={true}
@@ -34,8 +37,14 @@ function PreFooter() {
             <div className="filter" />
             <Container style={{color: "#fff"}}>
                 <div className="motto text-center">
-                    <Row>
-                        <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>Majitelia</h2></Col>
+                    <Row md={12}>
+                        <Col>
+                            <h2 className="title text-center" style={{color: "#fff"}}>
+                                {
+                                    t("owners")
+                                }
+                            </h2>
+                        </Col>
                     </Row>
                     <Row className="justify-content-md-center ml-auto mr-auto text-center" md="12">
                         <Col md="3" sm="6">
@@ -57,7 +66,13 @@ function PreFooter() {
                     </Row>
 
                     <Row>
-                        <Col md={12}><h2 className="title text-center" style={{color: "#fff"}}>Partneri</h2></Col>
+                        <Col md={12}>
+                            <h2 className="title text-center" style={{color: "#fff"}}>
+                                {
+                                    t('partners')
+                                }
+                            </h2>
+                        </Col>
                     </Row>
                     <Row className="justify-content-md-center">
                         <Col col-sm-6 col-lg-3>
@@ -112,4 +127,4 @@ function PreFooter() {
     );
 }
 
-export default PreFooter;
+export default withTranslation('common')(PreFooter);

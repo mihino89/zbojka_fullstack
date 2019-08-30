@@ -20,10 +20,13 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
+import { withTranslation } from 'react-i18next';
+import { Link as LinkScroll} from "react-scroll";
+
 
 // core components
 
-function LandingPageHeader() {
+function LandingPageHeader(props) {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -40,6 +43,9 @@ function LandingPageHeader() {
     }
   });
 
+  const {t}  = props;
+
+
   return (
     <>
       <div
@@ -54,21 +60,49 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
             <h1>Zbojnícka chata 1960 m.n.m</h1>
-            <h3>Objavte svet možností a krásy</h3>
+            <h3>
+              {
+                t("headline")
+              }
+            </h3>
             <br />
-            <Button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              className="btn-round mr-1"
-              color="neutral"
-              target="_blank"
-              outline
+            <LinkScroll
+                to="section3"
+                spy={true}
+                smooth={true}
+                className="btn-round"
+                offset={-70}
+                className="btn-round"
+                duration= {500}
+                style={{cursor: "pointer", fontWeight: "700"}}
             >
-              <i className="fa fa-play" />
-              Pozriet viac
-            </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
-              Rezervacia
-            </Button>
+              <Button
+                className="btn-round mr-1"
+                color="neutral"
+                outline
+              >
+                <i className="fa fa-play" />
+                {
+                  t("see_more")
+                }
+              </Button>
+            </LinkScroll>
+            <LinkScroll
+                to="section5"
+                spy={true}
+                smooth={true}
+                className="btn-round"
+                offset={-70}
+                className="btn-round"
+                duration= {500}
+                style={{cursor: "pointer", fontWeight: "700"}}
+            >
+              <Button className="btn-round" color="neutral" type="button" outline>
+                {
+                  t("reservation.title")
+                }
+              </Button>
+            </LinkScroll>
           </div>
         </Container>
       </div>
@@ -76,4 +110,4 @@ function LandingPageHeader() {
   );
 }
 
-export default LandingPageHeader;
+export default withTranslation('common')(LandingPageHeader);
